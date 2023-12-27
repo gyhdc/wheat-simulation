@@ -1,4 +1,4 @@
-This repository has made public the key configurations for model training and detection related to the paper [#######l], as well as the unified code for evaluating model detection and counting performance.
+This repository has made public the key configurations for model training and detection related to the paper "Counting wheat heads using a simulation model" [ ], as well as the unified code for evaluating model detection and counting performance.
 
 The `main.py` in the `Assess` folder is the main code for evaluation testing. 
 
