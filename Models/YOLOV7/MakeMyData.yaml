@@ -1,7 +1,6 @@
-train : D:\Desktop\yolov7-main_1\yolov7-main\datasets\images\train
-val : D:\Desktop\wheat_moni\yolov7-main_1\yolov7-main_5-7_test\yolov7-main\datasets\images\val
-test : E:\Datasets\gwhd_2021\gwhd_2021\test\yolo_test\images\test
-#分类数
+train : \train
+val : \val
+test : \test
 nc: 1
 
 names: ["wheat"]
