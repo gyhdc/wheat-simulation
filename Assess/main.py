@@ -19,7 +19,6 @@ def intersection_area(label_box, detect_box):
         return lens * wide
 
 
-# 计算并集面积
 def union_area(label_box, detect_box):
     x_label_min, y_label_min, x_label_max, y_label_max = label_box
     x_detect_min, y_detect_min, x_detect_max, y_detect_max = detect_box
