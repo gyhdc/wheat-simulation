@@ -1,7 +1,0 @@
-train : D:\Desktop\yolov7-main_1\yolov7-main\datasets\images\train
-val : D:\Desktop\yolov7-main_1\yolov7-main\datasets\images\val
-test : D:\Desktop\yolov7-main_1\yolov7-main\datasets\images\test
-#分类数
-nc: 1
-
-names: ["wheat"]
