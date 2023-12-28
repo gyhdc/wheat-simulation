@@ -8,4 +8,4 @@ The `Figs` folder contains the code for drawing the main figures and charts in t
 
 Please obtain the dataset from [https://figshare.com/articles/thesis/Untitled_Item/24198891].
 
-Please obtain the YOLOV7 source from https://github.com/WongKinYiu/yolov7 and replace  `train.py`,`detect.py`  with the file in `Models`.
+Please obtain the YOLOV7 Pre-trained model from https://github.com/WongKinYiu/yolov7 and add it to `YOLOV7/weights`.
