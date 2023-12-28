@@ -8,8 +8,6 @@ The `Figs` folder contains the code for drawing the main figures and charts in t
 
 
 
-
-
 ## Dataset
 - Download the dataset from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).
 
@@ -20,11 +18,14 @@ The `Figs` folder contains the code for drawing the main figures and charts in t
 4. Optionally, set custom parameters (defaults are available).
 5. Use `train.py` in `Models/YOLOV7` to start training the model. Expected results should appear within 25-75 epochs.
 
-## Detection
-1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
-2. Set the path for the test dataset.
-3. Run the script for detection. Results will be available in the `runs/detect` folder.
+## Pretrained models
+The YOLOv7 pretrained model trained with grayscale image processing can be downloaded from [YOLOv7 wheat pretrained](https://www.dropbox.com/scl/fi/xhtn1mz1q643i54cf87y4/yolov7_wheat.pt?rlkey=0ah3pxn9k6y49ik9llxai3m39&dl=0)
 
 ## Evaluation
 1. In the `main.py`  inside `Assess`, specify the path for the test dataset labels and the labels of the detected results.
 2. Perform the evaluation. Results will be printed in the console.
+
+## Detection (Inference)
+1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
+2. Set the path for the test dataset.
+3. Run the script for detection. Results will be available in the `runs/detect` folder.
