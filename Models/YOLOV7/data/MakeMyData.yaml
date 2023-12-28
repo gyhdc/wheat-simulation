@@ -1,14 +1,6 @@
-#train : D:/Desktop/1.WheatCounting/Detect/new_dataset/images/train1
-#val : D:/Desktop/1.WheatCounting/Detect/new_dataset/images/val
-#train : D:\Desktop\1.WheatCounting\Detect\mid_dataset\images\train2017
 
-#val : D:\Desktop\1.WheatCounting\Detect\mid_dataset\images\val2017
-#测试数据集
-
-#train : /hy-tmp/yolov7-main/datasets/images/train/
-#val : /hy-tmp/yolov7-main/datasets/images/val/
-train : D:\Desktop\wheat_moni\yolov7-main_1\yolov7-main_5-7_test\yolov7-main - 副本 (2)\datasets\images\train
-val : D:\Desktop\wheat_moni\yolov7-main_1\yolov7-main_5-7_test\yolov7-main - 副本 (2)\datasets\images\val
+train : D:\train
+val : D:\val
 #分类数
 nc: 1
 
