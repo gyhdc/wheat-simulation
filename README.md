@@ -26,5 +26,5 @@ The `Figs` folder contains the code for drawing the main figures and charts in t
 3. Run the script for detection. Results will be available in the `runs/detect` folder.
 
 ## Evaluation
-1. In the `main` folder inside `Assess`, specify the path for the test dataset labels and the labels of the detected results.
+1. In the `main.py`  inside `Assess`, specify the path for the test dataset labels and the labels of the detected results.
 2. Perform the evaluation. Results will be printed in the console.
