@@ -6,6 +6,8 @@ The `Models` folder contains the configuration files for the model during traini
 
 The `Figs` folder contains the code for drawing the main figures and charts in the paper.
 
+During training, evaluation, and detection, images will always first be converted to grayscale images.
+
 
 ## Dataset
 - Download the dataset from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).
