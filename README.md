@@ -8,7 +8,7 @@ The `Figs` folder contains the code for drawing the main figures and charts in t
 
 
 
-# Basic Replication Process
+
 
 ## Dataset Download
 - Download the dataset from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).
