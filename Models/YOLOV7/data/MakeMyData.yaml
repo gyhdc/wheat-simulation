@@ -1,7 +1,6 @@
 
 train : D:\train
 val : D:\val
-#分类数
 nc: 1
 
 names: ["wheat"]
