@@ -11,7 +11,7 @@ During training, test, inference, images will always first be converted to grays
 
 ## Dataset
 Dataset could be downloaded from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).    
-We use grayscale images for training and testing(images_grayscale) folders in the dataset, grayscale images can also be converted using util/togray.py. 
+We use grayscale images for training and testing(images_grayscale folders in the dataset), grayscale images can also be converted from original rgb images through util/togray.py. 
 
 ## Trained models
 The pretrained YOLOv7 model trained with our simulation wheat images can be downloaded from [Dropbox](https://www.dropbox.com/scl/fi/xhtn1mz1q643i54cf87y4/yolov7_wheat.pt?rlkey=0ah3pxn9k6y49ik9llxai3m39&dl=0)
