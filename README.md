@@ -10,7 +10,7 @@ During training, test, inference, images will always first be converted to grays
 
 
 ## Dataset
-Dataset could be downloaded from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891). 
+Dataset could be downloaded from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).    
 We use grayscale images for training and testing(images_grayscale) folders in the dataset, grayscale images can also be converted using util/togray.py. 
 
 ## Trained models
