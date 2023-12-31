@@ -10,7 +10,7 @@ During training, evaluation, and detection (inference), images will always first
 
 
 ## Dataset
-- Download the dataset from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).
+- Dataset could be downloaded from [figshare](https://figshare.com/articles/thesis/Untitled_Item/24198891).
 
 ## Trained models
 The pretrained YOLOv7 model trained with our simulation wheat images can be downloaded from [YOLOv7 wheat trained](https://www.dropbox.com/scl/fi/xhtn1mz1q643i54cf87y4/yolov7_wheat.pt?rlkey=0ah3pxn9k6y49ik9llxai3m39&dl=0)
