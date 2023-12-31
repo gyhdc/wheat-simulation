@@ -20,14 +20,14 @@ The pretrained YOLOv7 model trained with our simulation wheat images can be down
 2. Download the original YOLOv7 pretrained model from [WongKinYiu's YOLOv7](https://github.com/WongKinYiu/yolov7) and place it in the `weights` folder.
 3. In `Models/YOLOV7/data/MakeMyData.yaml`, specify the paths for your training set (processed in grayscale) and validation set (also processed in grayscale).
 4. Optionally, set custom parameters (defaults are available).
-5. Use `train.py` in `Models/YOLOV7` to start training the model. Expected results should appear within 25-75 epochs.
+5. Run `train.py` in `Models/YOLOV7` to start training the model. Expected results should appear within 25-75 epochs.
 
 ## Test
 1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
 2. Set the path for the test dataset.
-3. Run the script for detection. Results will be available in the `runs/detect` folder.
+3. Run `detect.py`. Results will be available in the `runs/detect` folder.
 4. In the `main.py`  inside `Assess`, specify the path for the labels of the test dataset and the labels of detection results.
-5. Perform test. Results will be printed in the console.
+5. Run `main.py`. Results will be printed in the console.
 
 ## Detection (Inference)
 1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
