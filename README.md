@@ -6,7 +6,7 @@ The `Models` folder contains the configuration files for the model during traini
 
 The `Figs` folder contains the code for drawing the main figures and charts in the paper.
 
-During training, evaluation, and detection (inference), images will always first be converted to grayscale images.
+During training, test, inference, images will always first be converted to grayscale images.
 
 
 ## Dataset
@@ -22,9 +22,12 @@ The pretrained YOLOv7 model trained with our simulation wheat images can be down
 4. Optionally, set custom parameters (defaults are available).
 5. Use `train.py` in `Models/YOLOV7` to start training the model. Expected results should appear within 25-75 epochs.
 
-## Evaluation
-1. In the `main.py`  inside `Assess`, specify the path for the test dataset labels and the labels of the detected results.
-2. Perform the evaluation. Results will be printed in the console.
+## Test
+1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
+2. Set the path for the test dataset.
+3. Run the script for detection. Results will be available in the `runs/detect` folder.
+4. In the `main.py`  inside `Assess`, specify the path for the labels of the test dataset and the labels of detection results.
+5. Perform test. Results will be printed in the console.
 
 ## Detection (Inference)
 1. In `detect.py`, modify custom parameters as needed (defaults are acceptable).
