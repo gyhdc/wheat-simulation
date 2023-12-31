@@ -2,11 +2,11 @@ This repository has made public the key configurations for model training and de
 
 The `main.py` in the `Assess` folder is the main code for evaluation and test. 
 
-The `Models` folder contains the configuration files for the model during training and testing. 
+The `Models` folder contains the configuration files for the model during training and test. 
 
 The `Figs` folder contains the code for drawing the main figures and charts in the paper.
 
-During training, evaluation, and detection, images will always first be converted to grayscale images.
+During training, evaluation, and detection (inference), images will always first be converted to grayscale images.
 
 
 ## Dataset
