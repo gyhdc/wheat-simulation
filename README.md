@@ -14,7 +14,7 @@ Dataset could be downloaded from [figshare](https://figshare.com/articles/thesis
 We use grayscale images for training and testing(images_grayscale folders in the dataset), grayscale images can also be converted from original rgb images through util/to_gray.py. 
 
 ## Trained models
-The pretrained YOLOv7 model trained with our simulation wheat images can be downloaded from [Dropbox: YOLO_wheat](https://www.dropbox.com/scl/fo/lp1sr5jx2vhqemfgehzfz/ALT1n_Sibp-OY1hr45dsRT0?rlkey=kik5igngwjsbtljios41iab62&st=ugps35t1&dl=0).
+The pretrained YOLOv7 model trained with our simulation wheat images can be downloaded from [Dropbox: yolo-wheat](https://www.dropbox.com/scl/fo/lp1sr5jx2vhqemfgehzfz/ALT1n_Sibp-OY1hr45dsRT0?rlkey=kik5igngwjsbtljios41iab62&st=ugps35t1&dl=0).
 
 ## Training
 1. Clone this repository to your local machine.
